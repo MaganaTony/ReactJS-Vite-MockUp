@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import CardsSection from './components/CardsSection'
+import SponsorsSection from './components/SponsorsSection'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <HeroSection />
       <CardsSection />
+      <SponsorsSection />
     </>
   )
 }
