@@ -27,7 +27,7 @@ export default function HeroSection() {
                 <div className="relative w-full h-full ">
                     {/* Background Color */}
                     <div class="relative inline-block top-10 -right-48">
-                        <div className="absolute inset-0 bg-gradient-to-br from-purple-600 via-blue-400 to-blue-300 filter blur-3xl -z-10"></div>
+                        <div className="absolute inset-0 bg-gradient-to-br from-blue-300 from-5% via-cyan-500 via-40% to-purple-600 to-50% filter blur-3xl -z-10"></div>
                         <img
                             src="src/assets/logo-with-shadow-removebg.png"
                             alt="Overlay Image"
