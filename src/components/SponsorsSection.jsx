@@ -20,20 +20,78 @@ export default function SponsorsSection() {
                             Special Sponsors
                         </h3>
                         <div className="sponsors-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1">
-                            <div className="div-item flex justify-center items-center bg-[#202127] p-4">
+                            <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-32 ">
                                 <img src="src/assets/stackblitz.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain" />
                             </div>
-                            <div className="div-item flex justify-center items-center bg-[#202127] p-4">
+                            <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-32">
                                 <img src="src/assets/nuxtlabs.svg" alt="NuxtLabs" className="max-w-full max-h-8 object-contain" />
                             </div>
-                            <div className="div-item flex justify-center items-center bg-[#202127] p-4">
+                            <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-32">
                                 <img src="src/assets/astro.svg" alt="Astro" className="max-w-full max-h-8 object-contain" />
                             </div>
                         </div>
                     </div>
-                    {/* Placeholder for additional sections, if needed */}
-                    <div className="section-sponsors"></div>
-                    <div className="section-sponsors"></div>
+                    <div className="section-sponsors">
+                        <h3 className="text-center text-white/65 font-semibold bg-[#202127] rounded-t-lg mb-1 mt-1">
+                            Platinum Sponsors
+                        </h3>
+                        <div className="sponsors-grid grid grid-cols-1 sm:grid-cols-2  gap-1">
+                            <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
+                                <img src="src/assets/storyblok.png" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale" />
+                            </div>
+                            <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
+                                <img src="src/assets/bit.svg" alt="NuxtLabs" className="max-w-full max-h-12 object-contain" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="section-sponsors">
+                        <h3 className="text-center text-white/65 font-semibold bg-[#202127] rounded-t-lg mb-1 mt-1">
+                            Gold Sponsors
+                        </h3>
+                        <div className="sponsors-grid grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-1">
+                            <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
+                                <img src="src/assets/tailwind_labs.svg" alt="StackBlitz" className="max-w-full max-h-5 object-contain grayscale invert" />
+                            </div>
+                            <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
+                                <img src="src/assets/divriots.png" alt="NuxtLabs" className="max-w-full max-h-7 object-contain grayscale invert" />
+                            </div>
+                            <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
+                                <img src="src/assets/prefect_io.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale invert" />
+                            </div>
+                            <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
+                                <img src="src/assets/jetbrains.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale invert" />
+                            </div>
+                            <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
+                                <img src="src/assets/mux.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale invert" />
+                            </div>
+                            <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
+                                <img src="src/assets/remix.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale invert" />
+                            </div>
+                            <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
+                                <img src="src/assets/nx.svg" alt="StackBlitz" className="max-w-full max-h-10 object-contain grayscale invert" />
+                            </div>
+                            <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
+                                <img src="src/assets/transloadit-dark.svg" alt="StackBlitz" className="max-w-full max-h-12 object-contain grayscale invert" />
+                            </div>
+                            <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
+                                <img src="src/assets/huly.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale invert" />
+                            </div>
+                            <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
+                                <img src="src/assets/handsontable.svg" alt="StackBlitz" className="max-w-full max-h-6 object-contain grayscale invert" />
+                            </div>
+                            <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
+                                <img src="src/assets/latchbio.svg" alt="StackBlitz" className="max-w-full max-h-10 object-contain grayscale invert" />
+                            </div>
+                            <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
+                            </div>
+                            <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
+                            </div>
+                            <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
+                            </div>
+                            <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
