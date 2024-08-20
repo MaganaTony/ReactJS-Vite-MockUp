@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import CardsSection from './components/CardsSection'
 import SponsorsSection from './components/SponsorsSection'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HeroSection />
       <CardsSection />
       <SponsorsSection />
+      <Footer />
     </>
   )
 }
