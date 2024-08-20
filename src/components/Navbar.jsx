@@ -9,7 +9,7 @@ export default function Navbar() {
             <div className="flex text-lg font-semibold text-white">
                 <img src="/vite.svg" className="h-7 mx-2" alt="Vite logo" />
                 <span>Vite</span>
-                <div className="ms-8 flex bg-zinc-950/45 w-auto rounded-lg h-10 p-1 gap-4 text-white/50 border border-zinc-950 hover:border-indigo-400">
+                <div className="ms-8 bg-zinc-950/45 w-auto rounded-lg h-10 p-1 gap-4 text-white/50 border border-zinc-950 hover:border-indigo-400 hidden lg:flex">
                     <div className="flex gap-1 p-1">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width=".5" stroke="currentColor" class="size-5">
                             <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
@@ -19,7 +19,7 @@ export default function Navbar() {
                     <span className="text-sm border rounded-sm border-zinc-600 p-1 h-7 ">Ctrl K</span>
                 </div>
             </div>
-            <div className="space-x-4 w-auto flex font-semibold text-white/80">
+            <div className="space-x-4 w-auto font-semibold text-white/80 hidden lg:flex">
                 <a href="#" className=" hover:text-indigo-400">Guide</a>
                 <a href="#" className=" hover:text-indigo-400">Config</a>
                 <a href="#" className=" hover:text-indigo-400">Plugins</a>
@@ -139,6 +139,14 @@ export default function Navbar() {
                         <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                     </svg>
                 </a>
+            </div>
+            <div className="lg:hidden flex gap-7">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+                </svg>
             </div>
         </nav>
     );
