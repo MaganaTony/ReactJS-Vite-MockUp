@@ -3,8 +3,8 @@ import React from 'react';
 export default function HeroSection() {
     return (
         <>
-            <div className='container flex flex-col-reverse lg:flex-row lg:items-center max-w-screen-md px-4 lg:px-8 mx-auto'>
-                <div className="relative lg:-right-16 lg:top-32 w-full xl:w-auto">
+            <div className='container flex flex-col-reverse lg:flex-row lg:pr-32 mx-auto'>
+                <div className="relative lg:top-10 w-full lg:w-auto lg:justify-start">
                     <div className='flex flex-col gap-4 text-center lg:text-left'>
                         <h1
                             className="text-6xl font-manrope font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 from-5% via-purple-600 via-10% to-pink-500 to-90%">Vite</h1>
@@ -22,7 +22,7 @@ export default function HeroSection() {
                 </div>
 
                 {/* Image for hero section */}
-                <div className="relative w-full h-full flex justify-center lg:justify-end">
+                <div className="relative w-full flex justify-center lg:justify-end">
                     {/* Background Color */}
                     <div className="relative inline-block top-10 -right-0 lg:-right-48">
                         <div className="absolute inset-0 bg-gradient-to-br from-blue-300 from-5% via-cyan-500 via-40% to-purple-600 to-50% filter blur-3xl -z-10 rounded-full"></div>
