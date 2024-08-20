@@ -14,7 +14,7 @@ export default function SponsorsSection() {
                         Vite is free and open source, made <br /> possible by wonderful sponsors.
                     </h3>
                 </div>
-                <div className="sponsors mt-5 flex justify-center">
+                <div className="sponsors mt-9 flex justify-center">
                     <div className="sponsorsAll w-full max-w-screen-lg">
                         <div className="section-sponsors">
                             <h3 className="text-center text-white/65 font-semibold bg-[#202127] rounded-t-lg mb-1">
@@ -22,13 +22,13 @@ export default function SponsorsSection() {
                             </h3>
                             <div className="sponsors-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1">
                                 <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-32 ">
-                                    <img src="src/assets/stackblitz.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain" />
+                                    <img src="../public/stackblitz.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain" />
                                 </div>
                                 <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-32">
-                                    <img src="src/assets/nuxtlabs.svg" alt="NuxtLabs" className="max-w-full max-h-8 object-contain" />
+                                    <img src="../public/nuxtlabs.svg" alt="NuxtLabs" className="max-w-full max-h-8 object-contain" />
                                 </div>
                                 <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-32">
-                                    <img src="src/assets/astro.svg" alt="Astro" className="max-w-full max-h-8 object-contain" />
+                                    <img src="../public/astro.svg" alt="Astro" className="max-w-full max-h-8 object-contain" />
                                 </div>
                             </div>
                         </div>
@@ -38,10 +38,10 @@ export default function SponsorsSection() {
                             </h3>
                             <div className="sponsors-grid grid grid-cols-1 sm:grid-cols-2  gap-1">
                                 <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="src/assets/storyblok.png" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale" />
+                                    <img src="../public/storyblok.png" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale" />
                                 </div>
                                 <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="src/assets/bit.svg" alt="NuxtLabs" className="max-w-full max-h-12 object-contain" />
+                                    <img src="../public/bit.svg" alt="NuxtLabs" className="max-w-full max-h-12 object-contain" />
                                 </div>
                             </div>
                         </div>
@@ -51,37 +51,37 @@ export default function SponsorsSection() {
                             </h3>
                             <div className="sponsors-grid grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-1">
                                 <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="src/assets/tailwind_labs.svg" alt="StackBlitz" className="max-w-full max-h-5 object-contain grayscale invert" />
+                                    <img src="../public/tailwind_labs.svg" alt="StackBlitz" className="max-w-full max-h-5 object-contain grayscale invert" />
                                 </div>
                                 <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="src/assets/divriots.png" alt="NuxtLabs" className="max-w-full max-h-7 object-contain grayscale invert" />
+                                    <img src="../public/divriots.png" alt="NuxtLabs" className="max-w-full max-h-7 object-contain grayscale invert" />
                                 </div>
                                 <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="src/assets/prefect_io.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale invert" />
+                                    <img src="../public/prefect_io.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale invert" />
                                 </div>
                                 <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="src/assets/jetbrains.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale invert" />
+                                    <img src="../public/jetbrains.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale invert" />
                                 </div>
                                 <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="src/assets/mux.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale invert" />
+                                    <img src="../public/mux.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale invert" />
                                 </div>
                                 <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="src/assets/remix.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale invert" />
+                                    <img src="../public/remix.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale invert" />
                                 </div>
                                 <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="src/assets/nx.svg" alt="StackBlitz" className="max-w-full max-h-10 object-contain grayscale invert" />
+                                    <img src="../public/nx.svg" alt="StackBlitz" className="max-w-full max-h-10 object-contain grayscale invert" />
                                 </div>
                                 <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="src/assets/transloadit-dark.svg" alt="StackBlitz" className="max-w-full max-h-12 object-contain grayscale invert" />
+                                    <img src="../public/transloadit-dark.svg" alt="StackBlitz" className="max-w-full max-h-12 object-contain grayscale invert" />
                                 </div>
                                 <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="src/assets/huly.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale invert" />
+                                    <img src="../public/huly.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale invert" />
                                 </div>
                                 <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="src/assets/handsontable.svg" alt="StackBlitz" className="max-w-full max-h-6 object-contain grayscale invert" />
+                                    <img src="../public/handsontable.svg" alt="StackBlitz" className="max-w-full max-h-6 object-contain grayscale invert" />
                                 </div>
                                 <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="src/assets/latchbio.svg" alt="StackBlitz" className="max-w-full max-h-10 object-contain grayscale invert" />
+                                    <img src="../public/latchbio.svg" alt="StackBlitz" className="max-w-full max-h-10 object-contain grayscale invert" />
                                 </div>
                                 <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
                                 </div>
