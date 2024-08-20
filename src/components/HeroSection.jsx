@@ -13,8 +13,13 @@ export default function HeroSection() {
                         <h2 className="text-6xl font-bold text-white">Next Generation Frontend Tooling</h2>
                         <h3 className="text-2xl font-semibold text-white/55">Get ready for a development environment that can finally catch up with you.</h3>
                     </div>
-                    <div className='mt-4'>
-                        <button className="px-4 py-2 bg-white text-black rounded-xl">Get Started</button>
+                    <div className='mt-4 flex gap-2'>
+                        <button className="p-2 px-5 bg-indigo-400 rounded-2xl font-bold">Get Started</button>
+                        <button className="p-2 px-5 bg-zinc-800 rounded-2xl font-bold">Why Vite?</button>
+                        <button className="p-2  bg-zinc-800 rounded-2xl font-bold">View on GitHub</button>
+                        <button className="p-2 bg-indigo-400 rounded-2xl font-bold ">
+                            <span>⚡ViteConf 24!</span>
+                        </button>
                     </div>
                 </div>
 
