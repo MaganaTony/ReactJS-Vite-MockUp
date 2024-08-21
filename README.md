@@ -1,4 +1,4 @@
-# Backend Javascript Challenge for RESTful API
+# React JS with Tailwind for Vite mockup
 
 This project's purpose is to create website using Vite/ReactJs and Vite
 
