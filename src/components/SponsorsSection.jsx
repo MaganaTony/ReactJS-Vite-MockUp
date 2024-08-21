@@ -21,14 +21,14 @@ export default function SponsorsSection() {
                                 Special Sponsors
                             </h3>
                             <div className="sponsors-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1">
-                                <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-32 ">
-                                    <img src="stackblitz.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain" />
+                                <div className="div-item group flex justify-center items-center bg-[#202127] p-4 h-32 hover:bg-white">
+                                    <img src="stackblitz.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain group-hover:invert" />
                                 </div>
-                                <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-32">
-                                    <img src="nuxtlabs.svg" alt="NuxtLabs" className="max-w-full max-h-8 object-contain" />
+                                <div className="div-item group flex justify-center items-center bg-[#202127] p-4 h-32 hover:bg-white">
+                                    <img src="nuxtlabs.svg" alt="NuxtLabs" className="max-w-full max-h-8 object-contain group-hover:invert" />
                                 </div>
-                                <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-32">
-                                    <img src="astro.svg" alt="Astro" className="max-w-full max-h-8 object-contain" />
+                                <div className="div-item group flex justify-center items-center bg-[#202127] p-4 h-32 hover:bg-white">
+                                    <img src="astro.svg" alt="Astro" className="max-w-full max-h-8 object-contain group-hover:invert" />
                                 </div>
                             </div>
                         </div>
@@ -37,11 +37,11 @@ export default function SponsorsSection() {
                                 Platinum Sponsors
                             </h3>
                             <div className="sponsors-grid grid grid-cols-1 sm:grid-cols-2  gap-1">
-                                <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="storyblok.png" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale" />
+                                <div className="div-item group flex justify-center items-center bg-[#202127] p-4 h-28 hover:bg-white">
+                                    <img src="storyblok.png" alt="Storyblok" className="max-w-full max-h-8 object-contain grayscale invert group-hover:invert-0" />
                                 </div>
-                                <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="bit.svg" alt="NuxtLabs" className="max-w-full max-h-12 object-contain" />
+                                <div className="div-item group flex justify-center items-center bg-[#202127] p-4 h-28 hover:bg-white">
+                                    <img src="bit.svg" alt="Bit" className="max-w-full max-h-12 object-contain group-hover:invert" />
                                 </div>
                             </div>
                         </div>
@@ -50,46 +50,46 @@ export default function SponsorsSection() {
                                 Gold Sponsors
                             </h3>
                             <div className="sponsors-grid grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-1">
-                                <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="tailwind_labs.svg" alt="StackBlitz" className="max-w-full max-h-5 object-contain grayscale invert" />
+                                <div className="div-item group flex justify-center items-center bg-[#202127] p-4 h-28 hover:bg-white">
+                                    <img src="tailwind_labs.svg" alt="Tailwind Labs" className="max-w-full max-h-5 object-contain grayscale invert group-hover:invert-0" />
                                 </div>
-                                <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="divriots.png" alt="NuxtLabs" className="max-w-full max-h-7 object-contain grayscale invert" />
+                                <div className="div-item group flex justify-center items-center bg-[#202127] p-4 h-28 hover:bg-white">
+                                    <img src="divriots.png" alt="Divriots" className="max-w-full max-h-7 object-contain grayscale invert group-hover:invert-0" />
                                 </div>
-                                <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="prefect_io.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale invert" />
+                                <div className="div-item group flex justify-center items-center bg-[#202127] p-4 h-28 hover:bg-white">
+                                    <img src="prefect_io.svg" alt="Prefect.io" className="max-w-full max-h-8 object-contain grayscale invert group-hover:invert-0" />
                                 </div>
-                                <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="jetbrains.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale invert" />
+                                <div className="div-item group flex justify-center items-center bg-[#202127] p-4 h-28 hover:bg-white">
+                                    <img src="jetbrains.svg" alt="JetBrains" className="max-w-full max-h-8 object-contain grayscale invert group-hover:invert-0" />
                                 </div>
-                                <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="mux.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale invert" />
+                                <div className="div-item group flex justify-center items-center bg-[#202127] p-4 h-28 hover:bg-white">
+                                    <img src="mux.svg" alt="Mux" className="max-w-full max-h-8 object-contain grayscale invert group-hover:invert-0" />
                                 </div>
-                                <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="remix.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale invert" />
+                                <div className="div-item group flex justify-center items-center bg-[#202127] p-4 h-28 hover:bg-white">
+                                    <img src="remix.svg" alt="Remix" className="max-w-full max-h-8 object-contain grayscale invert group-hover:invert-0" />
                                 </div>
-                                <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="nx.svg" alt="StackBlitz" className="max-w-full max-h-10 object-contain grayscale invert" />
+                                <div className="div-item group flex justify-center items-center bg-[#202127] p-4 h-28 hover:bg-white">
+                                    <img src="nx.svg" alt="Nx" className="max-w-full max-h-10 object-contain grayscale invert group-hover:invert-0" />
                                 </div>
-                                <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="transloadit-dark.svg" alt="StackBlitz" className="max-w-full max-h-12 object-contain grayscale invert" />
+                                <div className="div-item group flex justify-center items-center bg-[#202127] p-4 h-28 hover:bg-white">
+                                    <img src="transloadit-dark.svg" alt="Transloadit" className="max-w-full max-h-12 object-contain grayscale invert group-hover:invert-0" />
                                 </div>
-                                <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="huly.svg" alt="StackBlitz" className="max-w-full max-h-8 object-contain grayscale invert" />
+                                <div className="div-item group flex justify-center items-center bg-[#202127] p-4 h-28 hover:bg-white">
+                                    <img src="huly.svg" alt="Huly" className="max-w-full max-h-8 object-contain grayscale invert group-hover:invert-0" />
                                 </div>
-                                <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="handsontable.svg" alt="StackBlitz" className="max-w-full max-h-6 object-contain grayscale invert" />
+                                <div className="div-item group flex justify-center items-center bg-[#202127] p-4 h-28 hover:bg-white">
+                                    <img src="handsontable.svg" alt="Handsontable" className="max-w-full max-h-6 object-contain grayscale invert group-hover:invert-0" />
                                 </div>
-                                <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
-                                    <img src="latchbio.svg" alt="StackBlitz" className="max-w-full max-h-10 object-contain grayscale invert" />
+                                <div className="div-item group flex justify-center items-center bg-[#202127] p-4 h-28 hover:bg-white">
+                                    <img src="latchbio.svg" alt="LatchBio" className="max-w-full max-h-10 object-contain grayscale invert group-hover:invert-0" />
                                 </div>
-                                <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
+                                <div className="div-item group flex justify-center items-center bg-[#202127] p-4 h-28 hover:bg-white">
                                 </div>
-                                <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
+                                <div className="div-item group flex justify-center items-center bg-[#202127] p-4 h-28 hover:bg-white">
                                 </div>
-                                <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
+                                <div className="div-item group flex justify-center items-center bg-[#202127] p-4 h-28 hover:bg-white">
                                 </div>
-                                <div className="div-item flex justify-center items-center bg-[#202127] p-4 h-28">
+                                <div className="div-item group flex justify-center items-center bg-[#202127] p-4 h-28 hover:bg-white">
                                 </div>
                             </div>
                         </div>
